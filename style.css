@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-weight: 100;
+    letter-spacing: 3px;
+}
+.container{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.color-container{
+    background: #464141;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 80px;
+    border-radius: 10px;
+    border: black solid .5px;
+    margin: 5px;
+    box-shadow:2px 4px 4px rgba(0,0,0, 0.8);
+}
